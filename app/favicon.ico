@@ -1,0 +1,4 @@
+export const metadata = {
+  title: 'GLOW FLOW',
+  description: 'Light for the moment. Stone for what remains.'
+}
