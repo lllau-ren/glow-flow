@@ -29,8 +29,7 @@ export const metadata: Metadata = {
     'GLOW FLOW creates sculptural candles, natural crystals and ritual objects inspired by light, earth and the quiet beauty of the home.',
   openGraph: {
     title: 'GLOW FLOW',
-    description:
-      'Light for the moment. Stone for what remains.',
+    description: 'Light for the moment. Stone for what remains.',
     url: 'https://glowflow.example',
     siteName: 'GLOW FLOW',
     locale: 'en_US',
@@ -39,8 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'GLOW FLOW',
-    description:
-      'Light for the moment. Stone for what remains.',
+    description: 'Light for the moment. Stone for what remains.',
   },
   alternates: {
     canonical: '/',
