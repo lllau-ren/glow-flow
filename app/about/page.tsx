@@ -1,16 +1,18 @@
-import type { Metadata } from 'next'
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About',
   description: 'We believe in the beauty of slow things.',
-}
+};
 
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 pb-24 pt-24">
       <header className="mb-12 text-center">
-        <p className="text-xs uppercase tracking-[0.25em] text-stone-500">About</p>
-        <h1 className="mt-4 font-serif text-5xl md:text-7xl"># WE BELIEVE IN THE BEAUTY OF SLOW THINGS.</h1>
+        <p className="text-[10px] uppercase tracking-[0.25em] text-stone-500">About</p>
+        <h1 className="mt-4 font-serif text-5xl md:text-7xl">
+          # WE BELIEVE IN THE BEAUTY OF SLOW THINGS.
+        </h1>
       </header>
 
       <div className="space-y-8 text-xl leading-9 text-stone-700 md:text-2xl md:leading-[1.8]">
@@ -30,5 +32,5 @@ export default function AboutPage() {
         LIGHT · EARTH · RITUAL
       </div>
     </div>
-  )
+  );
 }
